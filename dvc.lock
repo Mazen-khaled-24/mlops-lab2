@@ -51,3 +51,12 @@ stages:
       hash: md5
       md5: 22ee7bf74baed91a06a357f5d77a0ed1
       size: 729
+    outs:
+    - path: results/confusion_matrix.png
+      hash: md5
+      md5: 24777bf2f5ff19e22829f99de9548b73
+      size: 15435
+    - path: results/metrics.json
+      hash: md5
+      md5: d55ec4830f5a13e173945ff82b88570b
+      size: 32
