@@ -23,7 +23,6 @@ stages:
       - model.pkl
       - data/processed/test.csv
     metrics:
-      - results/metrics.json
+      - metrics.json
     plots:
-      - results/confusion_matrix.png
-        
+      - confusion_matrix.png

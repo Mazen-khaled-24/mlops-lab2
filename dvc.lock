@@ -49,14 +49,14 @@ stages:
       size: 2367
     - path: src/validate.py
       hash: md5
-      md5: 22ee7bf74baed91a06a357f5d77a0ed1
-      size: 729
+      md5: 99297a22f675ad61c5344bb0630d6fb4
+      size: 636
     outs:
-    - path: results/confusion_matrix.png
+    - path: confusion_matrix.png
       hash: md5
       md5: 64c65bae2f100bc7abf4fef577f67719
       size: 15398
-    - path: results/metrics.json
+    - path: metrics.json
       hash: md5
       md5: 44f16dafd3bf810a9bc21371d3f079b7
       size: 32

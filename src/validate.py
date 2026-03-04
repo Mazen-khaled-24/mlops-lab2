@@ -15,9 +15,11 @@ pred = model.predict(X)
 
 acc = accuracy_score(y, pred)
 
+# save metrics
 with open("metrics.json", "w") as f:
     json.dump({"accuracy": float(acc)}, f)
 
+# save confusion matrix
 cm = confusion_matrix(y, pred)
 
 plt.figure()
